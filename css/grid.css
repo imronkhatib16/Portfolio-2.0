@@ -1,0 +1,54 @@
+/*Six Column Grid*/
+
+	.col-container-6 {
+		width:100%;
+		display:grid;
+		grid-template-columns:repeat(6, 1fr);
+		
+	}
+
+	.col-6fr {
+		grid-column: auto / span 1;
+	}
+
+	.col-3fr {
+		grid-column: auto / span 2;
+	}
+
+	.col-2fr {
+		grid-column: auto / span 3;
+	}
+
+	.col-1fr {
+		grid-column: auto / span 6;
+	}
+
+/*Twelve Column Grid*/
+
+	.col-container-12{
+		width:100%;
+		display:grid;
+		grid-template-columns:repeat(12, 1fr);
+		grid-gap:10px;
+
+	}
+
+	.col-12fr {
+		grid-column: auto / span 1;
+	}
+
+	.col-4fr {
+		grid-column: auto / span 3;
+	}
+
+	.col-3fr {
+		grid-column: auto / span 4;
+	}
+
+	.col-2fr {
+		grid-column: auto / span 6;
+	}
+
+	.col-1fr {
+		grid-column: auto / span 12;
+	}

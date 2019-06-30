@@ -1,0 +1,78 @@
+@import 'grid.css';
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color:rgba(54,66,86, .95);
+	background-image: url('../img/background-image.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+	color:#fff;
+}
+
+#name {
+	font-family: 'Roboto Slab', serif;
+	color:#D1E1FF;
+}
+
+#navbar {
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+}
+
+#navlinks {
+	list-style:none;
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+}
+
+.link{
+	text-decoration:none;
+	color:#fff;
+	padding:15px;
+}
+
+.btn-square-light {
+	cursor:pointer;
+	background-color:transparent;
+	border:1.5px solid #fff;
+	padding:8px 25px;
+	color:#fff;
+	transition: all 0.2s 0 ease; 
+}
+
+
+.btn-squre-light:hover {
+	background-color:#fff;
+	color:#9A5293;
+}
+
+#navbtn {
+	margin-right:20px;
+	margin-left:5px;
+
+}
+
+
+/*End Nav Section*/
+
+
+
+#hero {
+	width:100vw;
+	height:60vh;
+	text-align:center;
+	margin-top:30vh;
+}
+
+#scrollbtn {
+	padding-top:25vh;
+	height:85px;
+	align-self:center;
+	justify-self:center;
+}
