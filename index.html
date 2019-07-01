@@ -23,20 +23,19 @@
       <nav id="navbar">
         <ul id="navlinks">
           <li><a href="#" class="link">Portfolio</a></li>
-          <li><a href="#" class="link">Skill</a></li>
+          <li><a href="#" class="link">Skills</a></li>
           <li><a href="#" class="link">Mentorship</a></li>
         </ul>
         <!-- <a href="#" id="navbtn" class="link btn-square-light">Hire Me</a> -->
         <a href="#" ><button id="modalBtn" class="btn-square-light">Hire Me</button></a>
         <div id="modal" class="col-container-12">
           <div id="modalContent" class="col-1fr">
-            <div id="modalHeader" class="col-container-12">
+            <div id="modalHeader" class="col-container">
               <div id="closeBtn" class="col-1fr">&times;</div>
-              <h1 class="col-1fr">Hello World</h1>
-              <p class="col-1fr">I am a modal</p>
+              <h1 id="modalCall" class="col-1fr">Thanks for Considering Me <br>Please review my resume & reach out to me</h1>
             </div>
             
-            <div id="modalCards" class="col-container-12">
+            <div id="modalCards" class="col-container">
               <a href="#" class="modal-card col-3fr">
                 <div >
                   <h3>Email Me</h3>
@@ -45,14 +44,14 @@
               </a>
               <a href="#" class="modal-card col-3fr">
                 <div >
-                  <h3>Email Me</h3>
-                  <i class="far fa-envelope"></i>
+                  <h3>Call Me</h3>
+                <i class="fas fa-phone"></i>
                 </div>
               </a>
               <a href="#" class="modal-card col-3fr">
                 <div >
-                  <h3>Email Me</h3>
-                  <i class="far fa-envelope"></i>
+                  <h3>Download Resume</h3>
+                <i class="fas fa-file-download"></i>
                 </div>
               </a>
             </div>
@@ -60,7 +59,8 @@
         </div>
       </nav>
     </header>
-    <section id="hero" class="col-container-12">
+
+    <section id="hero" class="col-container">
       <div class="col-1fr">
         <h1>Hello, my name is <span id="name" >Imron Khatib</span>.
         <br>I'm a full stack developer.</h1>
@@ -68,6 +68,24 @@
       <img src="img/scroll-down.svg" alt="" id="scrollbtn" class="col-1fr">
     </section>
     
+    <section id="portfolio" class="col-container">
+      <div id="portfolioHeader" class="col-1fr">
+        <h1>Portfolio</h1>
+        <h3>I’ve built roughly 10,382 unique user interfaces for every imaginable usage. I’ve currently nestled myself into a niche for building massive UI libraries based on Bootstrap, focusing on analytics powered by D3.js</h3>
+      </div> 
+
+      <div id="slider" class="col-1fr">
+        <img src="img/slider-top.svg" alt="">
+        <img src="img/screenshot.png" alt="">
+      </div>     
+    </section>
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/3e48444bcf.js"></script>
     <script src="js/vendor/modernizr-3.7.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>

@@ -1,4 +1,4 @@
-.col-container-12{
+.col-container{
 	width:100%;
 	display:grid;
 	grid-template-columns:repeat(12, 1fr);
